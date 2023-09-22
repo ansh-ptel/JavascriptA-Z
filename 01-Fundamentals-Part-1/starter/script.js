@@ -59,7 +59,7 @@ console.log(typeof year);
 
 /*
 let age = 24;
-//Reassigning value - Mutating variable 
+//Reassigning value - Mutating variable
 age = 25;
 
 const birthYear = 1998;
@@ -67,7 +67,7 @@ const birthYear = 1998;
 birthYear = 1999;
 
 var job = 'Programmer';
-//Never use var 
+//Never use var
 job = 'Proffessor';
 */
 
@@ -105,7 +105,7 @@ const agePriyansh = now - 1999;
 
 console.log(now - 1998 > now - 1995);
 
-//OPerator Precedence 
+//OPerator Precedence
 let x, y;
 x = y = 25 - 10 - 5; // x = y = 10
 console.log(x, y);
@@ -114,7 +114,7 @@ const averageAge = (ageAnshu + agePriyansh) / 2;
 console.log(ageAnshu, agePriyansh, averageAge)
 */
 
-/* Write your code below. Good luck! 🙂 
+/* Write your code below. Good luck! 🙂
 let massMark, heightMark, massJohn, heightJohn;
 massMark = 78;
 heightMark = 1.69;
@@ -143,7 +143,7 @@ console.log(anshu);
 const anshuNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}!`;
 console.log(anshuNew);
 
-//Without using(Template Literals) `` 
+//Without using(Template Literals) ``
 console.log('String with \n\
 Multiple \n\
 lines');
@@ -176,7 +176,7 @@ console.log(century);
 */
 
 /*
-// Coding Challenge 2 
+// Coding Challenge 2
 
 const massMark = 78;
 const heightMark = 1.69;
@@ -187,15 +187,15 @@ const BMIMark = massMark / (heightMark * heightMark);
 const BMIJohn = massJohn / (heightJohn * heightJohn);
 // console.log(BMIMark, BMIJohn);
 
-/* Write your code below. Good luck! 🙂 
+/* Write your code below. Good luck! 🙂
 if (BMIMark > BMIJohn) {
     console.log(`Mark's BMI (${BMIMark}) is higher than John's (${BMIJohn})!`);
 } else {
     console.log(`"John's BMI (${BMIJohn}) is higher than Mark's (${BMIMark})!`);
 }
-*/
 
-//Type conversion 
+
+//Type conversion
 
 const birthYear = `1998`;
 console.log(Number(birthYear) + 25);
@@ -210,3 +210,24 @@ console.log(String(23), 23);
 
 console.log(`I'm ` + 23 + ` years old.`);
 console.log(`23` - `10` - 3);
+*/
+
+// 5 Falsy value, zero, empty string '', undefined, null, NaN
+console.log(Boolean(0));
+console.log(Boolean('Anshu'));
+console.log(Boolean(''));
+console.log(Boolean({}));
+
+const money = 0;
+if (money) {
+    console.log(`Don't spend it all`);
+} else {
+    console.log(`You should get a job`);
+}
+
+let height; // It converts hegiht into boolean value , It's undefined so it's a falsy value.
+if (height) {
+    console.log(`YAy Height is Defined`);
+} else {
+    console.log(`Nooi height is UNDEFINED`);
+}
