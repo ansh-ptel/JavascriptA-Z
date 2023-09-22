@@ -175,6 +175,7 @@ if (birthYear <= 2000) {
 console.log(century);
 */
 
+/*
 // Coding Challenge 2 
 
 const massMark = 78;
@@ -186,9 +187,26 @@ const BMIMark = massMark / (heightMark * heightMark);
 const BMIJohn = massJohn / (heightJohn * heightJohn);
 // console.log(BMIMark, BMIJohn);
 
-/* Write your code below. Good luck! 🙂 */
+/* Write your code below. Good luck! 🙂 
 if (BMIMark > BMIJohn) {
     console.log(`Mark's BMI (${BMIMark}) is higher than John's (${BMIJohn})!`);
 } else {
     console.log(`"John's BMI (${BMIJohn}) is higher than Mark's (${BMIMark})!`);
 }
+*/
+
+//Type conversion 
+
+const birthYear = `1998`;
+console.log(Number(birthYear) + 25);
+
+console.log(Number('Anshu'));
+console.log(typeof NaN);
+
+console.log(String(23), 23);
+
+
+//Type Coercion - It happens operator deals with two different type of values
+
+console.log(`I'm ` + 23 + ` years old.`);
+console.log(`23` - `10` - 3);
